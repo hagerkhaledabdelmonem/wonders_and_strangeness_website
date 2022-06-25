@@ -1,0 +1,19 @@
+p {
+color: rgb(245, 202, 234);
+font-size: 40px;
+padding:0 50px;
+}
+body {
+    background-image: url("../image/space-stars-planets-e1448888953128.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto;
+}

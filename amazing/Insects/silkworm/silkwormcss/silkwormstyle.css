@@ -1,0 +1,16 @@
+body{
+   background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../silkworm.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100% ;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: capitalize;    
+}
+figure{
+    position: relative;
+    left: 250px; 
+}

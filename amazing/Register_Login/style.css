@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+    background-size: cover;
+    font-family: sans-serif;
+    background-image:url('./IMG_20210824_164233_242.JPG'); 
+    background-position:center center;
+}
+.loginbox{
+    width:320px;
+    height:420px;
+    background: white;
+    color:white;
+    top:50%;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 80px;
+    opacity:0.9;
+}
+h3{
+    margin: 0;
+    padding:5px;
+    text-align: center;
+    color:cadetblue;
+    font-size: 25px;
+ }
+ .loginbox input[type="Username"],input[type="Password"]
+ {
+     text-align: center;
+    background-color: wheat;
+    border-radius: 200px;
+    margin-bottom: 20px;
+    outline: none;
+    height:35px; 
+    border:none;
+    border-bottom: 1px solid white;
+    position:relative;
+    right: 15px;
+    font-size: 16px;
+ }
+.loginbtn{
+    background-color: rgb(190, 170, 131);
+    color: black;
+    padding: 8px 0px;
+    margin: 2px 2px 2px 5px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .loginbtn:hover {
+    opacity: 1;
+  }
+
+  
+  .register {
+    background-color: whitesmoke;
+    padding: 0px;
+    width: 105%;
+    text-align: center;
+    color: black;
+  }

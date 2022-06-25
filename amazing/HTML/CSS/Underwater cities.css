@@ -1,0 +1,22 @@
+body {
+    background-image: url(../image/Anterhodos2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    
+    p {
+        color: rgb(235, 201, 243);
+        font-size: 40px;
+        padding:0 50px;
+        }
+    
+    img {
+            display: block;
+            margin: 0 auto 0 auto;
+        }
+    
+    h1 {
+            color: white;
+            font-size: 60px;
+            text-align: center;
+        }

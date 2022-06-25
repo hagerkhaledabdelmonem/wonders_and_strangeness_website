@@ -1,0 +1,28 @@
+div {
+    background-color: rgb(173, 130, 228);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: dashed 5px rgb(8, 1, 41);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    margin: 50px;
+    font-size: 80px;
+}
+ul {
+    font-size: 40px;
+
+    color: rgb(255, 191, 252);
+}
+h2 {
+    font-size: 60px;
+}
+

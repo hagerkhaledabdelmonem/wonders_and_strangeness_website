@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.Container{
+    margin: 20px auto;
+    width: 1200px;
+}
+.Container .color-switcher{
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Container .color-switcher li {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+.Container .color-switcher li:first-child {
+    background-color: red;
+}
+.Container .color-switcher li:nth-child(2) {
+    background-color: blue;
+}
+.Container .color-switcher li:nth-child(3) {
+    background-color: purple;
+}
+.Container .color-switcher li:nth-child(4) {
+    background-color: black;
+}
+.Container .color-switcher li:nth-child(5) {
+    background-color: rgb(31 31 67);
+}
+/* .Container h3{
+    color: red;
+}
+.Container div {
+    background-color: red;
+    padding: 20px;
+    color: white; 
+}*/
+.red .body{
+    color: red;
+}
+.red .body {
+    background-color: red;
+    padding: 20px;
+    color: white;
+}
+.blue .body{
+    color: blue;
+}
+.blue .body {
+    background-color: blue;
+    padding: 20px;
+    color: white;
+}
+.purple .body{
+    color: purple;
+}
+.purple .body {
+    background-color: purple;
+    padding: 20px;
+    color: white;
+}
+.black .body{
+    color: black;
+}
+.black .body {
+    background-color: black;
+    padding: 20px;
+    color: white;
+} 
+.primary .body{
+    color: rgb(31 31 67);
+}
+.primary .body {
+    background-color: rgb(31 31 67);
+    padding: 20px;
+    color: white;
+} 
